@@ -1,0 +1,51 @@
+import org.openqa.selenium.By;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class Firstseleniumtest {
+
+		
+	public static void main(String[] args)
+	{
+		
+		//WebDriver driver;
+		
+	//	public void launchBrowser()	{
+			
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\dell\\Downloads\\chromedriver_win32\\chromedriver.exe");
+					
+		WebDriver driver = new ChromeDriver();
+		//facebook login
+		//driver.get("http://www.facebook.com");
+		//driver.findElement(By.id("email")).sendKeys("contact.ravitanwar@gmail.com");
+		//driver.findElement(By.id("pass")).sendKeys("kuhu@2020");
+		//driver.findElement(By.id("u_0_b")).click();
+		
+		//pos cloud login 6969
+		
+		//driver.get("http://139.162.59.120:6969/login");
+		//driver.findElement(By.name("username")).sendKeys("iliyas_sandeep");
+		//driver.findElement(By.name("password")).sendKeys("sandeep");
+		//driver.findElement()
+		driver.manage().window().maximize();
+		//driver.quit();	
+		//obj.launchBrowser();
+		
+		// POS Live
+  
+		driver.get("http://entpstock.posist.net/");
+		Thread.sleep(5000);
+		driver.findElement(By.name("username")).sendKeys("poutlet");
+		Thread.sleep(5000);
+		driver.findElement(By.name("password")).sendKeys("poutlet");
+		Thread.sleep(5000);
+		driver.findElement(By.xpath("//*[@id="main1"]/div/div/div/div[3]/form/button").click();
+		Thread.sleep(5000);
+		//driver.find
+		
+	}
+
+}
